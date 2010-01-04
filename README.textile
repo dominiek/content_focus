@@ -1,7 +1,9 @@
 
 h1. Content Focus
 
-This is a little gem that allows you to input raw HTML and extract the most relevant piece of content. Right now, ContentFocus only supports 'permanent content extraction'. This is the content that's non-temporal on a page, like for example:
+This is a little gem that allows you to input raw HTML and extract the most relevant piece of content. This is useful when doing semantic analysis on HTML pages for example.
+
+Right now, ContentFocus only supports 'permanent content extraction'. This is the content that's non-temporal on a page, like for example:
 
 * About section
 * Author information
@@ -24,3 +26,8 @@ h2. Example
   # Will return the most relevant block of content in a Hpricot HTML tree element
   static_fragment = content_focus.static_fragment
 </code></pre>
+
+h2. Author
+
+Dominiek ter Heide
+(Note: I wrote this a while back and thought this could be useful to some developers)
