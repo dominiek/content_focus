@@ -30,4 +30,5 @@ h2. Example
 h2. Author
 
 Dominiek ter Heide
+http://dominiek.com/
 (Note: I wrote this a while back and thought this could be useful to some developers)
